@@ -1,10 +1,14 @@
 import "./App.css";
-import Wrapper from './Projects/9 Search bar/Wrapper';
+ 
+import Wrapper  from './Projects/10 Blog app (context api)/Wrapper';
+ 
 
 function App() {
   return (
     <main>
-        <Wrapper/>
+ 
+            <Wrapper/>
+  
     </main>
   );
 }

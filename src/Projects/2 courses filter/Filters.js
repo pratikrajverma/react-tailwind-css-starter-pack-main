@@ -1,6 +1,7 @@
 import React from "react";
 
 const Filters = ({ filterData, setclick, click }) => {
+  
   function btnclickhandler(title) {
     setclick(title);
   }
