@@ -4,7 +4,7 @@ import { AppContext } from '../context/appContext'
 const Header = () => {
   const {setBrightBtn} = useContext(AppContext)
   return (
-    <div className='sticky font-semibold top-0 p-2 bg-gray-200 flex justify-center'>
+    <div className='sticky font-semibold top-0 p-1 bg-gray-200 flex items-center justify-center'>
       <div className=' text-4xl text-center mb-5 '>
         CODE help blogs
 

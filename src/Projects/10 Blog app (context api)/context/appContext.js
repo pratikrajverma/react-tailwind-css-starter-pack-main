@@ -14,10 +14,19 @@ export  const AppContextProvider = ({ children }) => {
 
 
 
-    const fetchBlogsdata = async (page = 1) => {
+    const fetchBlogsdata = async (page = 1, tag= null, category) => {
 
         setLoading(true);
-        let url = `${baseUrl}?page=${page}`
+ 
+            let url = `${baseUrl}?page=${page}`
+
+            if (tag){
+                url += `&tag=${tag}`;
+            }
+
+            if(category){
+                url += `&category=${category}`;
+            }
 
         try {
             const response = await fetch(url)
@@ -37,7 +46,9 @@ export  const AppContextProvider = ({ children }) => {
         setLoading(false);
     }
  
-//...........................handle page change...............................
+
+    
+//...........................handle page change ( next and previious button ) ...............................
 
 
     const handlePageChange = (page) => {

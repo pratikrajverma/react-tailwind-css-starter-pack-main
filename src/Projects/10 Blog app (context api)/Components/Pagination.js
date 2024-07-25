@@ -5,7 +5,7 @@ const Pagination = () => {
   const {page, handlePageChange,totalPages} = useContext(AppContext)
   
   return (
-    <div className='flex gap-4 p-5 sticky bottom-0 bg-gray-200'>
+    <div className='flex gap-4 p-1 items-center px-36 sticky bottom-0 bg-gray-200'>
       {
         page > 1 && (
           <button
