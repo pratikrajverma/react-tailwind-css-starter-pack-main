@@ -22,6 +22,7 @@ const Main = () => {
       const tag = location.pathname.split('/').at(-1).replaceAll('-',' ');
       fetchBlogsdata(Number(page), tag)
     }
+    
     else if(location.pathname.includes('categories'))
       {
         const category = location.pathname.split('/').at(-1).replaceAll('-',' ');
