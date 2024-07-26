@@ -1,6 +1,6 @@
-import "./App.css";
  
-import Wrapper  from './Projects/10 Blog app (context api)/Wrapper';
+ 
+import Wrapper  from './Projects/11 counter app by redux/Wrapper';
  
 
 function App() {
