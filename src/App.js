@@ -1,6 +1,6 @@
  
  
-import Wrapper  from './Projects/11 counter app by redux/Wrapper';
+import Wrapper  from './Projects/12 shoping cart by redux/Wrapper';
  
 
 function App() {
